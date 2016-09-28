@@ -13,3 +13,11 @@ h1 {
 .selector-2 {
   color: red;
 }
+
+@mixin blue($a) {
+  @if $a {
+    color: red;
+  } @else {
+    color: blue;
+  }
+}
