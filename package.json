@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha __tests__/**",
-    "prepublish": "npm t"
+    "prepublish": "npm t",
+    "precommit": "npm t"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^3.6.1",
+    "husky": "^0.11.8",
     "mocha": "^3.1.0"
   }
 }
