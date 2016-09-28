@@ -4,7 +4,8 @@
   "description": "Reasonable config for scss linting",
   "main": "index.js",
   "scripts": {
-    "test": "mocha __tests__/**"
+    "test": "mocha __tests__/**",
+    "prepublish": "npm t"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "eslint": "^3.6.1",
     "mocha": "^3.1.0"
   }
 }
