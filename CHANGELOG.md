@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.2.0
+
+- Support sass conditionals in one line
+
+```scss
+@if $a {
+  color: red;
+} @else {
+  color: blue;
+}
+```
+
 ## 1.1.0
 
 - Remove selector depth limits. There is no way that would go well with parsing projects
