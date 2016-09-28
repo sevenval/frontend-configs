@@ -1,5 +1,7 @@
 # Sevenval CSS/Sass Styleguide
 
+[![NPM version](http://img.shields.io/npm/v/stylelint-config-sevenval.svg)](https://www.npmjs.org/package/stylelint-config-standard) [![Build Status](https://travis-ci.org/marvinhagemeister/stylelint-config-sevenval.svg?branch=master)](https://travis-ci.org/marvinhagemeister/stylelint-config-sevenval)
+
 The official style rules for stylesheets written at Sevenval.
 
 ## Installation
