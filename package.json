@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git remote add origin git@github.com:marvinhagemeister/stylelint-config-sevenval.git"
+    "url": "git remote add origin git@github.com:sevenval/stylelint-config-sevenval.git"
   },
-  "author": "Marvin Hagemeister <marvin@marvinhagemeister.de>",
+  "author": "Marvin Hagemeister <marvin.hagemeister@sevenval.de>",
   "license": "MIT",
   "dependencies": {
     "stylelint": "^7.3.1",
