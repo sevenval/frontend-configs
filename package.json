@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-sevenval",
+  "version": "0.0.1",
+  "description": "A sane JavaScript linter configuration",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "config",
+    "sevenval"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:marvinhagemeister/eslint-config-sevenval.git"
+  },
+  "scripts": {
+    "test": "mocha '__tests__/**/*.spec.js'",
+    "lint": "eslint index.js es5.js 'rules/**/*' '__tests__/**/*'"
+  },
+  "author": "Marvin Hagemeister <marvin@marvinhagemeister.de>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.7.0",
+    "mocha": "^3.1.0"
+  }
+}
