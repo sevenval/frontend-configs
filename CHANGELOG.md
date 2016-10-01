@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1
+
+- Complete repo transfer to sevenval organization
+
 ## 1.2.0
 
 - Support sass conditionals in one line
