@@ -1,5 +1,9 @@
 # eslint-config-sevenval
 
+## 1.1.1
+
+- Fix incorrect license in `package.json`
+
 ## 1.1.0
 
 - Add more code style rules
