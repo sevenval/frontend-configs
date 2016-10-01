@@ -7,9 +7,6 @@ module.exports = {
     }
   },
   rules: {
-    'arrow-body-style': ['error', 'as-needed', {
-      requireReturnForObjectLiteral: false,
-    }],
     'arrow-spacing': ['error', { before: true, after: true }],
     'no-const-assign': 'error',
     'no-duplicate-imports': 'error',
