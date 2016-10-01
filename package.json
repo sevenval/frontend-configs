@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sevenval",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A sane JavaScript linter configuration",
   "main": "index.js",
   "keywords": [
@@ -14,7 +14,8 @@
   },
   "scripts": {
     "test": "mocha '__tests__/**/*.spec.js'",
-    "lint": "eslint index.js es5.js 'rules/**/*' '__tests__/**/*'"
+    "lint": "eslint index.js es5.js 'rules/**/*' '__tests__/**/*'",
+    "prepublish": "npm t"
   },
   "author": "Marvin Hagemeister <marvin@marvinhagemeister.de>",
   "license": "ISC",
