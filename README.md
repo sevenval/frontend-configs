@@ -1,5 +1,7 @@
 # Sevenval ESLint Rules
 
+[![NPM version](http://img.shields.io/npm/v/eslint-config-sevenval.svg)](https://www.npmjs.org/package/eslint-config-sevenval)  [![Build Status](https://travis-ci.org/marvinhagemeister/eslint-config-sevenval.svg?branch=master)](https://travis-ci.org/marvinhagemeister/eslint-config-sevenval)
+
 The official style rules for JavaScript written at Sevenval.
 
 ## Installation
