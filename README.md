@@ -1,6 +1,6 @@
 # Sevenval CSS/Sass Linter Rules
 
-[![NPM version](http://img.shields.io/npm/v/stylelint-config-sevenval.svg)](https://www.npmjs.org/package/stylelint-config-standard) [![Build Status](https://travis-ci.org/sevenval/stylelint-config-sevenval.svg?branch=master)](https://travis-ci.org/sevenval/stylelint-config-sevenval)
+[![NPM version](http://img.shields.io/npm/v/stylelint-config-sevenval.svg)](https://www.npmjs.org/package/stylelint-config-sevenval) [![Build Status](https://travis-ci.org/sevenval/stylelint-config-sevenval.svg?branch=master)](https://travis-ci.org/sevenval/stylelint-config-sevenval)
 
 The official style rules for stylesheets written at Sevenval.
 
