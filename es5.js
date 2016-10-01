@@ -1,11 +1,9 @@
 module.exports = {
   extends: [
-    'eslint:recommended',
-    require.resolve('./rules/base'),
-  ],
+    './rules/base',
+    './rules/style'
+  ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 5
-  },
-  rules: {
   }
 };
