@@ -2,6 +2,10 @@ function a2() {
 
 }
 
+/**
+ * @param f
+ * @returns {HTMLElement}
+ */
 function a(a) {
   switch(a) {
     case 1:

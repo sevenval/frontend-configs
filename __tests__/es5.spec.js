@@ -16,6 +16,6 @@ describe('ES 5', () => {
     const code = getFixture('es5/invalid.js');
     const result = runLinter(code, 'es5');
 
-    t.equal(result.errorCount, 10);
+    t.equal(result.errorCount, 13);
   });
 });

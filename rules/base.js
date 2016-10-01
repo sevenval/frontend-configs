@@ -36,6 +36,14 @@ module.exports = {
     "no-unneeded-ternary": "error",
     "eqeqeq": ["error", "allow-null"],
     "space-infix-ops": "error",
-    "semi": "error"
+    "semi": "error",
+    "spaced-comment": ["error", "always"],
+    "valid-jsdoc": ["error", {
+      "requireReturnType": false,
+      "requireReturn": false,
+      "requireReturnDescription": false,
+      "requireParamDescription": false
+    }],
+    "lines-around-comment": ["error", { "beforeBlockComment": true }]
   }
 };
