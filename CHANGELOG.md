@@ -1,5 +1,9 @@
 # eslint-config-sevenval
 
+## 1.1.2
+
+- Transfer repository to sevenval organization
+
 ## 1.1.1
 
 - Fix incorrect license in `package.json`
