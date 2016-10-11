@@ -1,5 +1,9 @@
 # eslint-config-sevenval
 
+## 1.2.0
+
+- Add react preset
+
 ## 1.1.2
 
 - Transfer repository to sevenval organization
