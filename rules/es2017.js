@@ -3,6 +3,7 @@ module.exports = {
     ecmaVersion: 2017,
     sourceType: 'module',
     ecmaFeatures: {
+      generators: true,
       experimentalObjectRestSpread: true
     }
   },

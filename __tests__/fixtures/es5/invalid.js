@@ -17,6 +17,9 @@ function b(t) {
   return typeof t !== 'undefined' ? true : false;
 }
 
+/*
+ asdsf
+*/
 function c() {
   var a, b, c = 0;
 }

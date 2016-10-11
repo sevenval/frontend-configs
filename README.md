@@ -21,6 +21,14 @@ content:
 }
 ```
 
+For react projects:
+
+```json
+{
+  "extends": "eslint-config-sevenval/react"
+}
+```
+
 For legacy ES 5 projects:
 
 ```json
