@@ -21,3 +21,24 @@ h1 {
     color: blue;
   }
 }
+
+@value colors: './colors.css';
+@value primary, secondary from colors;
+
+.base {
+  content: 'base';
+  color: primary;
+}
+
+.composed {
+  composes: base;
+}
+
+.flexible {
+  composes: flex from './utils.css';
+  flex-direction: column;
+}
+
+:global(.js) .progressive {
+  display: block;
+}

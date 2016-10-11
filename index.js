@@ -1,9 +1,35 @@
 module.exports = {
-  extends: "stylelint-config-standard",
+  extends: [
+    "stylelint-config-standard"
+  ],
   plugins: [
     "stylelint-scss"
   ],
   rules: {
+    // CSS Modules
+    "selector-pseudo-class-no-unknown": [ true, {
+      ignorePseudoClasses: [
+        "export",
+        "import",
+        "global",
+        "local",
+      ],
+    }],
+    "property-no-unknown": [ true, {
+      ignoreProperties: [
+        "composes",
+      ],
+    }],
+    "at-rule-no-unknown": [ true, {
+      ignoreAtRules: [
+        "value",
+        "if",
+        "else",
+        "mixin"
+      ],
+    }],
+
+    // Style
     "at-rule-empty-line-before": [
       "always",
       {
@@ -38,5 +64,6 @@ module.exports = {
     "number-leading-zero": null,
     "selector-max-compound-selectors": null,
     "shorthand-property-no-redundant-values": null,
+    // "selector-list-comma-newline-after": null,
   }
 }
