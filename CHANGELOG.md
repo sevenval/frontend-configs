@@ -1,5 +1,9 @@
 # eslint-config-sevenval
 
+## 1.2.1
+
+- Use `babel-eslint` for better es6 parsing
+
 ## 1.2.0
 
 - Add react preset
