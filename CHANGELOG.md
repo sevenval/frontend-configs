@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0
+
+- Add support for CSS-Modules
+
 ## 1.2.1
 
 - Complete repo transfer to sevenval organization
