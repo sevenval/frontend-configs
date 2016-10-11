@@ -1,4 +1,7 @@
 {
   "root": true,
-  "extends": "eslint:recommended"
+  "extends": "eslint:recommended",
+  "env": {
+    "node": true
+  }
 }
