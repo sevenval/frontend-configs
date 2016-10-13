@@ -41,4 +41,15 @@ h1 {
 
 :global(.js) .progressive {
   display: block;
+
+.sel {
+  @include blue;
+}
+
+%whatever {
+  color: red;
+}
+
+.header {
+  @extend whatever;
 }
