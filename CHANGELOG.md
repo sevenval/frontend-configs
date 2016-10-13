@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.1
+
+- Allow scss and css-modules in the same file
+
 ## 1.3.0
 
 - Add support for CSS-Modules
