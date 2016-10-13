@@ -1,3 +1,4 @@
+
 @import "whatever";
 @import "whatever";
 
@@ -9,6 +10,7 @@ h1 {
   padding: 0.5rem 1rem 1rem 1rem;
 }
 
+// A comment
 .selector-1,
 .selector-2 {
   color: red;
@@ -41,4 +43,61 @@ h1 {
 
 :global(.js) .progressive {
   display: block;
+}
+
+.sel {
+  @include blue;
+}
+
+%whatever {
+  color: red;
+}
+
+.header {
+  @extend whatever;
+}
+
+@media (max-width: 300px) {
+  body {
+    background: red;
+  }
+}
+
+.parent {
+  @at-root {
+    .child1 {
+      color: blue;
+    }
+
+    .child2 {
+      color: blue;
+    }
+  }
+}
+
+@debug 10em + 12em;
+
+@warn "Assuming #{$x} to be in pixels";
+
+@if unitless(2px) {
+  @error "$x may not be unitless, was #{$x}.";
+}
+
+@for $i from 1 through 3 {
+  .item-#{$i} {
+    width: 2em * $i;
+  }
+}
+
+@each $animal in puma, sea-slug, egret, salamander {
+  .#{$animal}-icon {
+    background-image: url('/images/#{$animal}.png');
+  }
+}
+
+$i: 6;
+
+@while $i > 0 {
+  .item-#{$i} { width: 2em * $i; }
+  $i: $i - 2;
 }

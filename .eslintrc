@@ -1,6 +1,5 @@
 {
-  "root": true,
-  "extends": "eslint:recommended",
+  "extends": "eslint-config-sevenval",
   "env": {
     "node": true
   }
