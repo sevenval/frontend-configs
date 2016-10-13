@@ -25,7 +25,17 @@ module.exports = {
         "value",
         "if",
         "else",
-        "mixin"
+        "mixin",
+        "extend",
+        "import",
+        "include",
+        "at-root",
+        "while",
+        "debug",
+        "warn",
+        "error",
+        "each",
+        "for"
       ],
     }],
 
@@ -63,7 +73,6 @@ module.exports = {
     "function-name-case": null,
     "number-leading-zero": null,
     "selector-max-compound-selectors": null,
-    "shorthand-property-no-redundant-values": null,
-    // "selector-list-comma-newline-after": null,
+    "shorthand-property-no-redundant-values": null
   }
-}
+};

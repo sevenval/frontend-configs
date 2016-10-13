@@ -15,7 +15,8 @@ describe('config', () => {
 
     return stylelint.lint({
       code,
-      config
+      config,
+      syntax: 'scss'
     }).then(data => {
       const { errored, results } = data;
       const { warnings } = results[0];
