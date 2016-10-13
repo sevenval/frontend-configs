@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-sevenval",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Reasonable config for scss linting",
   "main": "index.js",
   "scripts": {
