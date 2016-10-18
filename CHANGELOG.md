@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.2
+
+- Add Sass `@function` and `@return` to at-rule exceptions
+
 ## 1.3.1
 
 - Allow scss and css-modules in the same file
