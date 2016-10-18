@@ -35,7 +35,9 @@ module.exports = {
         "warn",
         "error",
         "each",
-        "for"
+        "for",
+        "function",
+        "return"
       ],
     }],
 

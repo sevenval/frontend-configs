@@ -101,3 +101,7 @@ $i: 6;
   .item-#{$i} { width: 2em * $i; }
   $i: $i - 2;
 }
+
+@function remy($pxsize) {
+  @return ($pxsize/16)+rem;
+}
