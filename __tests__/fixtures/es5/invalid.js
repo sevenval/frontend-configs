@@ -17,6 +17,8 @@ function b(t) {
   return typeof t !== 'undefined' ? true : false;
 }
 
+console.log(   b(  "s"   )); // eslint-disable-line no-console
+
 /*
  asdsf
 */

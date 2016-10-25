@@ -37,6 +37,7 @@ module.exports = {
       "requireReturn": false,
       "requireReturnDescription": false,
       "requireParamDescription": false
-    }]
+    }],
+    "no-multi-spaces": "error"
   }
 };

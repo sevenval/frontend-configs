@@ -3,5 +3,8 @@ function a() {
   return 2;
 }
 
+import     React from   'react';
+
+console.log(React);
 
 const b = (t) => t+2;
