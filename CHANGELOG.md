@@ -1,5 +1,10 @@
 # eslint-config-sevenval
 
+## 1.3.0
+
+- Add rule to disallow multiple spaces inside a line
+- Add more react specific linting rules
+
 ## 1.2.1
 
 - Use `babel-eslint` for better es6 parsing
