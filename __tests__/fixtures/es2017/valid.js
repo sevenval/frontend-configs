@@ -8,3 +8,9 @@ a();
 const b = t => t + 2;
 
 b(1);
+
+function wait() {
+  return Promise.resolve(3);
+}
+
+wait();

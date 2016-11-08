@@ -29,5 +29,8 @@ module.exports = {
     'prefer-rest-params': 'error',
     // babel inserts `'use strict';` for us
     'strict': ['error', 'never']
+  },
+  globals: {
+    Promise: true
   }
 };
