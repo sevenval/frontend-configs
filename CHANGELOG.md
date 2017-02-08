@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.3
+
+- Upgrade [stylelint](https://github.com/stylelint/stylelint) which renamed a few ruless
+- Upgrade all dependencies
+- Test on both node 6 and 7
+
 ## 1.3.2
 
 - Add Sass `@function` and `@return` to at-rule exceptions
