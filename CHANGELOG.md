@@ -3,6 +3,7 @@
 ## next
 
 - Warn when using `px` instead of `rem` or `em`
+- Limit nesting to a depth of `4`
 
 ## 1.3.3
 
@@ -10,7 +11,6 @@
 - Upgrade all dependencies
 - Test on both node 6 and 7
 - Add Sass `@content` to at-rule exceptions
-- Limit nesting to a depth of `4`
 
 ## 1.3.2
 
