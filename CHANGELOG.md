@@ -1,6 +1,6 @@
 # Changelog
 
-## next
+## 1.4.0
 
 - Warn when using `px` instead of `rem` or `em`
 - Limit nesting to a depth of `4`
