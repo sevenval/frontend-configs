@@ -5,6 +5,7 @@
 - Upgrade [stylelint](https://github.com/stylelint/stylelint) which renamed a few ruless
 - Upgrade all dependencies
 - Test on both node 6 and 7
+- Add Sass `@content` to at-rule exceptions
 
 ## 1.3.2
 

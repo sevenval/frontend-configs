@@ -37,7 +37,8 @@ module.exports = {
         "each",
         "for",
         "function",
-        "return"
+        "return",
+        "content"
       ],
     }],
 

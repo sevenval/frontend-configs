@@ -105,3 +105,9 @@ $i: 6;
 @function remy($pxsize) {
   @return ($pxsize/16)+rem;
 }
+
+@mixin foo() {
+  div {
+    @content;
+  }
+}
