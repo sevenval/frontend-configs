@@ -1,5 +1,9 @@
 # eslint-config-sevenval
 
+## next
+
+- Update `react` preset
+
 ## 1.4.0
 
 - Add `Promise` global to `es6` and `react` presets
