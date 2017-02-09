@@ -57,7 +57,7 @@ h1 {
   @extend whatever;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 60rem) {
   body {
     background: red;
   }

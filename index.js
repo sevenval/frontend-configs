@@ -77,6 +77,7 @@ module.exports = {
     "max-nesting-depth": 3,
     "number-leading-zero": null,
     "selector-max-compound-selectors": null,
-    "shorthand-property-no-redundant-values": null
+    "shorthand-property-no-redundant-values": null,
+    "unit-blacklist": ["px", { "severity": "warning" }]
   }
 };

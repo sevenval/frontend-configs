@@ -37,7 +37,7 @@ describe('config', () => {
       const { warnings } = results[0];
 
       t.isTrue(errored, "no errors");
-      t.equal(warnings.length, 6, "flags no warnings");
+      t.equal(warnings.length, 8, "flags no warnings");
     });
   });
 });

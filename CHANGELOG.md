@@ -1,5 +1,9 @@
 # Changelog
 
+## next
+
+- Warn when using `px` instead of `rem` or `em`
+
 ## 1.3.3
 
 - Upgrade [stylelint](https://github.com/stylelint/stylelint) which renamed a few ruless
