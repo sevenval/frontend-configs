@@ -74,6 +74,7 @@ module.exports = {
     "declaration-colon-newline-after": null,
     "declaration-empty-line-before": null,
     "function-name-case": null,
+    "max-nesting-depth": 3,
     "number-leading-zero": null,
     "selector-max-compound-selectors": null,
     "shorthand-property-no-redundant-values": null

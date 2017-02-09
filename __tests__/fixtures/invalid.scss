@@ -12,3 +12,15 @@ h2, h3, h4 {
 .auto {
   color: red;
 }
+
+.foo {
+  .bar {
+    .baz {
+      .ouff {
+        .wow {
+          color: red;
+        }
+      }
+    }
+  }
+}
