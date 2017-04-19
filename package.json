@@ -5,6 +5,10 @@
   "main": "src/index.json",
   "author": "Marvin Hagemeister <marvin.hagemeister@sevenval.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:marvinhagemeister/tslint-config-sevenval.git"
+  },
   "scripts": {
     "lint": "tslint 'src/**/!(invalid).ts'",
     "test": "mocha --compilers ts:ts-node/register 'src/**/__tests__/*.spec.ts'",
