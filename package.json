@@ -2,7 +2,7 @@
   "name": "tslint-config-sevenval",
   "version": "0.0.1",
   "description": "A sane TSLint configuration for TypeScript",
-  "main": "src/index.json",
+  "main": "index.json",
   "author": "Marvin Hagemeister <marvin.hagemeister@sevenval.com>",
   "license": "MIT",
   "repository": {
