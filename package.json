@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "clean": "rimraf dist/",
-    "lint": "tslint 'src/**/*.ts'",
+    "lint": "tslint 'src/**/!(invalid).ts'",
     "watch": "tsc -w",
     "build": "npm run clean && tsc",
     "test": "mocha --compilers ts:ts-node/register 'src/**/__tests__/*.spec.ts'",
