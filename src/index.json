@@ -11,6 +11,12 @@
     "ordered-imports": [
       false
     ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore"
+    ],
     "object-literal-sort-keys": false,
     "member-ordering": [
       false
@@ -29,12 +35,6 @@
     "no-unused-expression": true,
     "no-unused-variable": [
       true
-    ],
-    "variable-name": [
-      true,
-      "ban-keywords",
-      "check-format",
-      "allow-leading-underscore"
     ]
   }
 }
