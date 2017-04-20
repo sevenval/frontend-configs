@@ -35,6 +35,26 @@
     "no-unused-expression": true,
     "no-unused-variable": [
       true
+    ],
+    "linebreak-style": [
+      true,
+      "LF"
+    ],
+    "no-trailing-whitespace": true,
+    "object-literal-shorthand": true,
+    "semicolon": [
+      true,
+      "always"
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-module",
+      "check-separator",
+      "check-type",
+      "check-typecast"
     ]
   }
 }
