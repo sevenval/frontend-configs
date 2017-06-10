@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.6.1
+## 0.6.1 + 0.6.2
 
 - Remove `variable-name` rule. Get's too much in the way when writing jsx.
 
