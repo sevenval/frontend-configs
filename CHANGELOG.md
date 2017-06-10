@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.1
+
+- Remove `variable-name` rule. Get's too much in the way when writing jsx.
+
 ## 0.6.0
 
 Add code-style rules. Unfortunately `TSLint` is not as feature
