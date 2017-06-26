@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.6.3
+
+- Explicitely disable `variable-name` rule. The `tslint:latest` preset recently
+added it back in which is why we have to opt-out.
+
 ## 0.6.1 + 0.6.2
 
 - Remove `variable-name` rule. Get's too much in the way when writing jsx.

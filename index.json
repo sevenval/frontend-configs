@@ -49,6 +49,9 @@
       "check-separator",
       "check-type",
       "check-typecast"
+    ],
+    "variable-name": [
+      false
     ]
   }
 }
