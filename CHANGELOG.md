@@ -1,5 +1,12 @@
 # eslint-config-sevenval
 
+## 1.4.1
+
+- Upgrade `eslint-plugin-react` to fix an issue introduced by
+the recent prop-types split from React core.
+- Update eslint to latest `4.x` release
+- Run tests on node 8
+
 ## 1.4.0
 
 - Update `react` preset
