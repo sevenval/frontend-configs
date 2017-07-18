@@ -3,6 +3,7 @@
  * to eschew the "id" and "for" unless you want to employ some very hacky solutions
  */
 import React  from  'react';
+import PropTypes from 'prop-types';
 import styles from './styles.css';
 
 class Accordion extends React.Component {
@@ -18,7 +19,7 @@ class Accordion extends React.Component {
   }
 }
 
-const { number, string } = React.PropTypes;
+const { number, string } = PropTypes;
 
 Accordion.propTypes = {
   label: string,

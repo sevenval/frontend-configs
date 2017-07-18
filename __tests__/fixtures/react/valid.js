@@ -3,6 +3,7 @@
  * to eschew the "id" and "for" unless you want to employ some very hacky solutions
  */
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './styles.css';
 
 const Accordion = ({ name, value, checked, label, children }) => {
@@ -16,7 +17,7 @@ const Accordion = ({ name, value, checked, label, children }) => {
   );
 };
 
-const { number, string } = React.PropTypes;
+const { number, string } = PropTypes;
 
 Accordion.propTypes = {
   label: string,
