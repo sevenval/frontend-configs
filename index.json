@@ -1,20 +1,13 @@
 {
   "extends": "tslint:latest",
   "rules": {
-    "member-access": [
-      false
-    ],
+    "no-implicit-dependencies": [true, "dev"],
+    "member-access": [false],
     "arrow-parens": false,
-    "interface-name": [
-      false
-    ],
-    "ordered-imports": [
-      false
-    ],
+    "interface-name": [false],
+    "ordered-imports": [false],
     "object-literal-sort-keys": false,
-    "member-ordering": [
-      false
-    ],
+    "member-ordering": [false],
     "trailing-comma": [
       true,
       {
@@ -22,24 +15,13 @@
         "singleline": "never"
       }
     ],
-    "object-literal-key-quotes": [
-      true,
-      "as-needed"
-    ],
+    "object-literal-key-quotes": [true, "as-needed"],
     "no-unused-expression": true,
-    "no-unused-variable": [
-      true
-    ],
-    "linebreak-style": [
-      true,
-      "LF"
-    ],
+    "no-unused-variable": [true],
+    "linebreak-style": [true, "LF"],
     "no-trailing-whitespace": true,
     "object-literal-shorthand": true,
-    "semicolon": [
-      true,
-      "always"
-    ],
+    "semicolon": [true, "always"],
     "whitespace": [
       true,
       "check-branch",
@@ -50,8 +32,6 @@
       "check-type",
       "check-typecast"
     ],
-    "variable-name": [
-      false
-    ]
+    "variable-name": [false]
   }
 }
