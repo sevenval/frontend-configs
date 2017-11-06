@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-sevenval",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "description": "A sane TSLint configuration for TypeScript",
   "main": "index.json",
   "author": "Marvin Hagemeister <marvin.hagemeister@sevenval.com>",
@@ -11,7 +11,8 @@
   },
   "scripts": {
     "lint": "tslint 'src/**/!(invalid).ts'",
-    "test": "mocha --compilers ts:ts-node/register 'src/**/__tests__/*.spec.ts'",
+    "test":
+      "mocha --compilers ts:ts-node/register 'src/**/__tests__/*.spec.ts'",
     "test-watch": "npm t -- -w -R min --watch-extensions json,ts,tsx",
     "prepublish": "npm run lint && npm t"
   },

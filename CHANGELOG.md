@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.4
+
+- Add `devDependencies` to `no-implicit-dependencies` rule
+
 ## 0.6.3
 
 - Explicitely disable `variable-name` rule. The `tslint:latest` preset recently
