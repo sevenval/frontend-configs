@@ -1,17 +1,22 @@
 # Changelog
 
+## 1.0.0
+
+* Remove style-related rules (use `prettier` for that).
+* Add more sensitive defaults
+
 ## 0.6.4
 
-- Add `devDependencies` to `no-implicit-dependencies` rule
+* Add `devDependencies` to `no-implicit-dependencies` rule
 
 ## 0.6.3
 
-- Explicitely disable `variable-name` rule. The `tslint:latest` preset recently
-added it back in which is why we have to opt-out.
+* Explicitely disable `variable-name` rule. The `tslint:latest` preset recently
+  added it back in which is why we have to opt-out.
 
 ## 0.6.1 + 0.6.2
 
-- Remove `variable-name` rule. Get's too much in the way when writing jsx.
+* Remove `variable-name` rule. Get's too much in the way when writing jsx.
 
 ## 0.6.0
 
