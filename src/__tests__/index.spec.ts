@@ -8,7 +8,7 @@ describe("Default Preset", () => {
   const config = path.join(__dirname, "..", "..", "index.json");
   it("should fail", () => {
     const res = run(fixture("invalid.ts"), config);
-    t.equal(res.errorCount, 2);
+    t.equal(res.errorCount, 1);
     t.equal(res.warningCount, 0);
   });
 

@@ -1,7 +1,7 @@
-
 export default class Foo {
+  bar = "nope";
   private _baz() {
-    return "nope";
+    return this.bar;
   }
 }
 

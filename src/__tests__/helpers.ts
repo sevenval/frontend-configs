@@ -8,7 +8,8 @@ export function run(filename: string, config: string) {
     formatter: "json",
   });
 
-  const configuration = Configuration.findConfiguration(config, filename).results;
+  const configuration = Configuration.findConfiguration(config, filename)
+    .results;
   linter.lint(filename, fileContents, configuration);
   return linter.getResult();
 }
