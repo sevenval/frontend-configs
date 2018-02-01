@@ -14,9 +14,13 @@
     "test":
       "mocha --compilers ts:ts-node/register 'src/**/__tests__/*.spec.ts'",
     "test-watch": "npm t -- -w -R min --watch-extensions json,ts,tsx",
-    "prepublish": "npm run lint && npm t"
+    "prepublishOnly": "npm run lint && npm t"
   },
   "dependencies": {},
+  "peerDependencies": {
+    "tslint": "^5.1.0",
+    "typescript": "^2.6.0"
+  },
   "devDependencies": {
     "@types/chai": "^3.5.1",
     "@types/mocha": "^2.2.41",
@@ -26,6 +30,6 @@
     "rimraf": "^2.6.1",
     "ts-node": "^3.0.2",
     "tslint": "^5.1.0",
-    "typescript": "^2.2.2"
+    "typescript": "^2.6.0"
   }
 }
