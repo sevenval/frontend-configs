@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+* Disable `prefer-function-over-method` rule
+
 ## 1.0.0
 
 * Remove style-related rules (use `prettier` for that).
