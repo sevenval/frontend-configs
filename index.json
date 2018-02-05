@@ -16,7 +16,7 @@
     "callable-types": true,
     "class-name": true,
     "no-unnecessary-initializer": true,
-    "prefer-function-over-method": true,
+    "prefer-function-over-method": false,
     "return-undefined": false,
 
     "curly": false,
