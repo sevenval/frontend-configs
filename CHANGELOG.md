@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.0
+
+- Upgrade all dependencies (major). Fixes semver issue with `postcss-selector-parser`
+
 ## 1.4.0
 
 - Warn when using `px` instead of `rem` or `em`
