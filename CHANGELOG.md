@@ -1,5 +1,10 @@
 # eslint-config-sevenval
 
+## 2.0.0
+
+- Change few styling rules (#16, #15)
+- Breaking: Upgrade `eslint-plugin-react` (#14)
+
 ## 1.4.1
 
 - Upgrade `eslint-plugin-react` to fix an issue introduced by
