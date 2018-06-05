@@ -16,6 +16,6 @@ describe('React', () => {
     const code = getFixture('react/invalid.js');
     const result = runLinter(code, 'react');
 
-    t.equal(result.errorCount, 2);
+    t.equal(result.errorCount, 4);
   });
 });

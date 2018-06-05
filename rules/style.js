@@ -8,11 +8,12 @@ module.exports = {
     "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }],
     "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 3 }],
     "indent": ["error", 2, { "SwitchCase": 1 }],
-    "lines-around-comment": ["error", { "beforeBlockComment": true }],
     "spaced-comment": ["error", "always"],
     "comma-spacing": ["error", { "before": false, "after": true }],
     "one-var": ["error", "never"],
     "func-call-spacing": "error",
     "yoda": "error",
+    "quotes": [2, "single"],
+    "eol-last": ["error", "always"]
   }
 };

@@ -9,9 +9,9 @@ import styles from './styles.css';
 const Accordion = ({ name, value, checked, label, children }) => {
   return (
     <div className={styles.Accordion}>
-      <input type="radio" id={name + "_" + value}
+      <input type="radio" id={name + '_' + value}
         checked={checked} value={value} name={name} />
-      <label htmlFor={name + "_" + value} >{label}</label>
+      <label htmlFor={name + '_' + value} >{label}</label>
       <div>{children}</div>
     </div>
   );
