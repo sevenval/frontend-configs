@@ -38,6 +38,7 @@ module.exports = {
       "requireReturnDescription": false,
       "requireParamDescription": false
     }],
-    "no-multi-spaces": "error"
+    "no-multi-spaces": "error",
+    "no-param-reassign": "error"
   }
 };

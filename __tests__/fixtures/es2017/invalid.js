@@ -8,3 +8,10 @@ import     React from   'react';
 console.log(React);
 
 const b = (t) => t+2;
+
+function foo(x) {
+  x = 2;
+  return x;
+}
+
+foo();

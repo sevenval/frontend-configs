@@ -16,6 +16,6 @@ describe('ES 2017', () => {
     const code = getFixture('es2017/invalid.js');
     const result = runLinter(code, 'index');
 
-    t.equal(result.errorCount, 8);
+    t.equal(result.errorCount, 9);
   });
 });
