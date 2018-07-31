@@ -1,26 +1,15 @@
 module.exports = {
   root: true,
-  extends: [
-    "eslint:recommended"
-  ],
-  parserOptions: {
-    ecmaFeatures: {
-      "impliedStrict": true
-    }
-  },
-  env: {
-    browser: true,
-    mocha: true
-  },
+  extends: ["eslint:recommended"],
   globals: {
     ai: true,
-    ac: true
+    ac: true,
   },
   rules: {
-    "no-console": "error",
+    "no-console": "warn",
     "no-alert": "error",
     "no-else-return": "error",
-    "no-fallthrough": "error",
+    "no-fallthrough": "warn",
     "no-eval": "error",
     "no-implied-eval": "error",
     "no-return-assign": "error",
@@ -29,16 +18,12 @@ module.exports = {
     "array-callback-return": "error",
     "guard-for-in": "error",
     "no-unneeded-ternary": "error",
-    "eqeqeq": ["error", "allow-null"],
-    "space-infix-ops": "error",
-    "semi": "error",
-    "valid-jsdoc": ["error", {
-      "requireReturnType": false,
-      "requireReturn": false,
-      "requireReturnDescription": false,
-      "requireParamDescription": false
-    }],
-    "no-multi-spaces": "error",
-    "no-param-reassign": "error"
-  }
+    eqeqeq: ["error", "allow-null"],
+    "no-param-reassign": "off",
+    "no-case-declarations": "off",
+    "no-dupe-args": "error",
+    "no-dupe-keys": "error",
+    "no-duplicate-case": "error",
+    "no-func-assign": "error",
+  },
 };

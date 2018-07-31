@@ -1,8 +1,5 @@
-module.exports = {
-  extends: [
-    './rules/base',
-    './rules/style',
-    './rules/es2017',
-    './rules/react',
-  ].map(require.resolve),
-};
+console.error(
+  "The preset 'eslint-config-sevenval/react' is deprecated. Use " +
+    "'eslint-config-sevenval' instead which includes rules for react.",
+);
+process.exit(1);

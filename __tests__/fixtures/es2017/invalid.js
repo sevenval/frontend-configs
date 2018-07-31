@@ -3,11 +3,11 @@ function a() {
   return 2;
 }
 
-import     React from   'react';
+import React from "react";
 
 console.log(React);
 
-const b = (t) => t+2;
+const b = t => t + 2;
 
 function foo(x) {
   x = 2;
