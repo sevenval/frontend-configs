@@ -43,6 +43,9 @@ module.exports = {
     }],
 
     // Style
+    "at-rule-blacklist": [
+      "extend"
+    ],
     "at-rule-empty-line-before": [
       "always",
       {
@@ -74,10 +77,14 @@ module.exports = {
     "declaration-colon-newline-after": null,
     "declaration-empty-line-before": null,
     "function-name-case": null,
-    "max-nesting-depth": 3,
+    "max-nesting-depth": [3, {
+      ignoreAtRules: [
+        "for",
+        "include"
+      ]
+    }],
     "number-leading-zero": null,
     "selector-max-compound-selectors": null,
-    "shorthand-property-no-redundant-values": null,
-    "unit-blacklist": ["px", { "severity": "warning" }]
+    "shorthand-property-no-redundant-values": null
   }
 };
