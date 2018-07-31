@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.0
+
+* Upgrade to TypeScript 3.0 (possibly breaking change)
+
 ## 1.0.1
 
 * Disable `prefer-function-over-method` rule
