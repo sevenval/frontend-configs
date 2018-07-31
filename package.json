@@ -17,8 +17,8 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "tslint": "^5.1.0",
-    "typescript": "^2.6.0"
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
   },
   "devDependencies": {
     "@types/chai": "^4.1.4",
@@ -28,7 +28,7 @@
     "mocha": "^5.2.0",
     "rimraf": "^2.6.1",
     "ts-node": "^7.0.0",
-    "tslint": "^5.1.0",
+    "tslint": "^5.11.0",
     "typescript": "^3.0.1"
   }
 }
