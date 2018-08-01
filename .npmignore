@@ -3,3 +3,7 @@ node_modules/
 .travis.yml
 .editorconfig
 __tests__/
+.prettierrc
+yarn.lock
+.vscode/
+.eslintrc.js
