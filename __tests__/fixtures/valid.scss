@@ -52,10 +52,6 @@ h1 {
   color: red;
 }
 
-.header {
-  @extend whatever;
-}
-
 @media (max-width: 60rem) {
   body {
     background: red;
@@ -108,5 +104,21 @@ $i: 6;
 @mixin foo() {
   div {
     @content;
+  }
+}
+
+.foo {
+  .bar {
+    .baz {
+      .ouff {
+        @for $i from 1 through 3 {
+          color: red;
+        }
+
+        @include foo {
+          color: red;
+        }
+      }
+    }
   }
 }

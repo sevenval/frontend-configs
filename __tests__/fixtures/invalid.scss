@@ -11,7 +11,7 @@ h2, h3, h4 {
 }
 .auto {
   color: red;
-  padding: 5px;
+
 }
 
 .foo {
@@ -24,4 +24,8 @@ h2, h3, h4 {
       }
     }
   }
+}
+
+.header {
+  @extend whatever;
 }
