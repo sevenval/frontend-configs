@@ -1,4 +1,12 @@
-# eslint-config-sevenval
+# Changelog
+
+## 3.0.0
+
+- **breaking**: Deprecate `es5` preset. If you absolutely need it, you can
+  install an older version via `npm install eslint-config-sevenval@2`
+- **breaking**: The `react` preset has been merged into the default one. Instead
+  of extending `eslint-config-sevenval/react` just use `eslint-config-sevenval`
+- The preset is now based on `eslint-config-react-app`.
 
 ## 2.0.0
 
@@ -8,7 +16,7 @@
 ## 1.4.1
 
 - Upgrade `eslint-plugin-react` to fix an issue introduced by
-the recent prop-types split from React core.
+  the recent prop-types split from React core.
 - Update eslint to latest `4.x` release
 - Run tests on node 8
 
