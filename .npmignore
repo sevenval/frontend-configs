@@ -4,3 +4,6 @@ __tests__/
 .travis.yml
 .editorconfig
 .eslintrc
+.vscode/
+.stylelintrc.js
+yarn.lock
