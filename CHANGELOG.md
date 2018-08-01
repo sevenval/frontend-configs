@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.1
+
+- Upgrade dependencies
+- Remove `unit-blacklist` rule.
+
 ## 2.0.0
 
 - Upgrade all dependencies (major). Fixes semver issue with `postcss-selector-parser`
