@@ -43,6 +43,8 @@ module.exports = {
     }],
 
     // Style
+    "indentation": null,
+    "selector-descendant-combinator-no-non-space": null,
     "at-rule-blacklist": [
       "extend"
     ],

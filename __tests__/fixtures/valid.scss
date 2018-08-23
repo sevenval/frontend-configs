@@ -122,3 +122,22 @@ $i: 6;
     }
   }
 }
+
+.a {
+  background: linear-gradient(
+      to right,
+      red,
+      orange,
+      yellow,
+      green,
+      blue,
+      indigo
+  )
+  0 0 no-repeat;
+}
+
+.a-very-long-class-name
+  .an-even-longer-very-long-class-name
+  .a-very-long-class-name {
+  color: blue;
+}
