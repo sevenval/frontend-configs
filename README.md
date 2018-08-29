@@ -15,7 +15,7 @@ Table of contents:
 
 ## Prettier
 
-[Prettier](https://prettier.io/) is a tool for automatic code formatting. For a 
+[Prettier](https://prettier.io/) is a tool for automatic code formatting. For a
 complete list of supported languages head over to [their docs](https://prettier.io/docs/en/language-support.html).
 If you're unsure what it does, you can try it online without any installations
 via the [playground](https://prettier.io/playground/).
@@ -40,7 +40,7 @@ Add `.prettierrc` file at the root directory with the following content:
 ### Editor Plugins
 
 We highly recommend to install the relevant plugin for your editor of choice to
-enable formatting on save. Please follow the installation instructions of the 
+enable formatting on save. Please follow the installation instructions of the
 plugins README.
 
 - [Atom](https://github.com/prettier/prettier-atom)
