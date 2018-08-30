@@ -12,11 +12,16 @@ Table of contents:
 - [TSLint](#tslint)
 - [Setting up Git-Hooks](#githooks)
 
-<a href="#editorconfig>
+<a href="#editorconfig" />
 
 ## Editorconfig
 
-```toml
+All popular editors support [EditorConfig](https://editorconfig.org/)
+as a way to share common settings like encoding, indentation style or
+which character to use for line-endings. Throughout our projects we use
+this config:
+
+```ini
 root = true
 
 [*]
@@ -28,7 +33,7 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 ```
 
-<a href="#prettier"/>
+<a href="#prettier" />
 
 ## Prettier
 
@@ -76,7 +81,7 @@ Besides the IDE-Plugins we recommend setting up a `pre-commit` so that only
 formatted code finds its way into the repository. Please read the docs about
 [Git-Hooks](#githooks) for instructions on how to do so.
 
-<a href="#stylelint"/>
+<a href="#stylelint" />
 
 ## Stylelint
 
@@ -111,7 +116,7 @@ If you need to further customise the ruleset for your project you can look
 - [Sublime Text](https://github.com/SublimeLinter/SublimeLinter-stylelint)
 - [WebStorm](https://www.jetbrains.com/help/webstorm/using-stylelint-code-quality-tool.html)
 
-<a href="#eslint"/>
+<a href="#eslint" />
 
 ## ESLint
 
@@ -146,7 +151,7 @@ If you need to further customise the ruleset for your project you can look
 - [Sublime Text](https://github.com/SublimeLinter/SublimeLinter-eslint)
 - [WebStorm](https://www.jetbrains.com/help/webstorm/eslint.html)
 
-<a href="#tslint"/>
+<a href="#tslint" />
 
 ## TSLint
 
@@ -179,3 +184,63 @@ If you need to further customise the ruleset for your project you can look
 - [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
 - [Sublime Text](https://github.com/SublimeLinter/SublimeLinter-tslint)
 - [WebStorm](https://www.jetbrains.com/help/webstorm/tslint.html)
+
+## Git Hooks
+
+Git hooks can be used to execute arbitrary scripts or commands on git events. The most popular one is the `pre-commit` hook which runs just before
+a git commit is created. We recommend create a `pre-commit` hook for
+[prettier](#prettier) so that only formatted code can enter the repository.
+
+If there isn't already a git hook pipeline setup in your project we
+suggest setting them up via [husky](https://github.com/typicode/husky)
+and [lint-staged](https://github.com/okonet/lint-staged). _Note that for backend projects that are not based on nodejs you'll likely encounter different tools for setting up git hooks._
+
+```bash
+npm install --save-dev husky
+```
+
+Husky is used to execute npm scripts defined in `package.json` as a git hook.
+
+```json
+{
+  "name": "my-project",
+  "scripts": {
+    "pre-commit": "echo 'hello world'"
+  },
+  "devDependencies": {
+    "husky": "^x.x.x"
+  }
+}
+```
+
+This will output `hello world` before creating a commit.
+
+If you execute commands that expect an files as input like it is commonly
+done with linters, you do not want to lint the whole repository. Instead developers only want to check the files that are staged in git. This is
+a lot more performant and ensures a less invasive workflow change.
+
+For that we have made great experiences with [lint-staged](https://github.com/okonet/lint-staged).
+
+```bash
+npm install --save-dev lint-staged
+```
+
+After the package is installed you can enable it via extending
+`package.json`. This config tells lint stage to always run prettier if the
+staged file ends with `.js` or `.json`:
+
+```json
+{
+  "name": "my-project",
+  "scripts": {
+    "pre-commit": "echo 'hello world'"
+  },
+  "lint-staged": {
+    "*.{js,json}": ["prettier --write", "git add"]
+  },
+  "devDependencies": {
+    "husky": "^x.x.x",
+    "lint-staged": "^x.x.x"
+  }
+}
+```
