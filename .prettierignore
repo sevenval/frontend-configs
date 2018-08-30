@@ -1,0 +1,3 @@
+packages/tslint-config-sevenval/__tests__/fixtures/**
+packages/eslint-config-sevenval/__tests__/fixtures/**
+packages/stylelint-config-sevenval/__tests__/fixtures/**
