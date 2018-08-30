@@ -1,5 +1,9 @@
 node_modules/
+.nyc_output/
 __tests__/
+coverage/
+scripts/
+src/
 
 .gitignore
 .travis.yml
@@ -9,3 +13,5 @@ __tests__/
 .eslintrc.js
 .stylelintrc.js
 yarn.lock
+tsconfig.json
+tslint.json

@@ -1,0 +1,34 @@
+{
+  "name": "tslint-config-sevenval",
+  "version": "2.0.0",
+  "description": "A sane TSLint configuration for TypeScript",
+  "main": "index.json",
+  "author": "Marvin Hagemeister <marvin.hagemeister@sevenval.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:marvinhagemeister/tslint-config-sevenval.git"
+  },
+  "scripts": {
+    "lint": "tslint 'src/**/!(invalid).ts'",
+    "test": "mocha --require ts-node/register 'src/**/__tests__/*.spec.ts'",
+    "test-watch": "npm t -- -w -R min --watch-extensions json,ts,tsx",
+    "prepublishOnly": "npm run lint && npm t"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.5.4",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "rimraf": "^2.6.1",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  }
+}

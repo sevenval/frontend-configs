@@ -49,3 +49,9 @@ jspm_packages
 *.ipr
 *.iws
 .idea/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Compiled files
+dist/
