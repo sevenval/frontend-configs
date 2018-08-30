@@ -1,0 +1,143 @@
+
+@import "whatever";
+
+body {
+  padding: .5rem;
+}
+
+h1 {
+  padding: 0.5rem 1rem 1rem 1rem;
+}
+
+// A comment
+.selector-1,
+.selector-2 {
+  color: red;
+}
+
+@mixin blue($a) {
+  @if $a {
+    color: red;
+  } @else {
+    color: blue;
+  }
+}
+
+@value colors: './colors.css';
+@value primary, secondary from colors;
+
+.base {
+  content: 'base';
+  color: primary;
+}
+
+.composed {
+  composes: base;
+}
+
+.flexible {
+  composes: flex from './utils.css';
+  flex-direction: column;
+}
+
+:global(.js) .progressive {
+  display: block;
+}
+
+.sel {
+  @include blue;
+}
+
+%whatever {
+  color: red;
+}
+
+@media (max-width: 60rem) {
+  body {
+    background: red;
+  }
+}
+
+.parent {
+  @at-root {
+    .child1 {
+      color: blue;
+    }
+
+    .child2 {
+      color: blue;
+    }
+  }
+}
+
+@debug 10em + 12em;
+
+@warn "Assuming #{$x} to be in pixels";
+
+@if unitless(2px) {
+  @error "$x may not be unitless, was #{$x}.";
+}
+
+@for $i from 1 through 3 {
+  .item-#{$i} {
+    width: 2em * $i;
+  }
+}
+
+@each $animal in puma, sea-slug, egret, salamander {
+  .#{$animal}-icon {
+    background-image: url('/images/#{$animal}.png');
+  }
+}
+
+$i: 6;
+
+@while $i > 0 {
+  .item-#{$i} { width: 2em * $i; }
+  $i: $i - 2;
+}
+
+@function remy($pxsize) {
+  @return ($pxsize/16)+rem;
+}
+
+@mixin foo() {
+  div {
+    @content;
+  }
+}
+
+.foo {
+  .bar {
+    .baz {
+      .ouff {
+        @for $i from 1 through 3 {
+          color: red;
+        }
+
+        @include foo {
+          color: red;
+        }
+      }
+    }
+  }
+}
+
+.a {
+  background: linear-gradient(
+      to right,
+      red,
+      orange,
+      yellow,
+      green,
+      blue,
+      indigo
+  )
+  0 0 no-repeat;
+}
+
+.a-very-long-class-name
+  .an-even-longer-very-long-class-name
+  .a-very-long-class-name {
+  color: blue;
+}

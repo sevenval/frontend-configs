@@ -1,0 +1,33 @@
+{
+  "name": "stylelint-config-sevenval",
+  "version": "2.0.1",
+  "description": "Reasonable config for scss linting",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha __tests__/**",
+    "test-watch": "npm t -- -w --watch-extensions=scss",
+    "prepublishOnly": "npm t",
+    "precommit": "npm t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sevenval/stylelint-config-sevenval.git"
+  },
+  "author": "Marvin Hagemeister <marvin.hagemeister@sevenval.de>",
+  "license": "MIT",
+  "dependencies": {
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-scss": "^3.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-sevenval": "^1.4.1",
+    "husky": "^0.14.3",
+    "mocha": "^5.2.0",
+    "stylelint": "^9.4.0"
+  },
+  "peerDependencies": {
+    "stylelint": "9.x"
+  }
+}

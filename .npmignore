@@ -1,9 +1,11 @@
-.gitignore
 node_modules/
+__tests__/
+
+.gitignore
 .travis.yml
 .editorconfig
-__tests__/
 .prettierrc
-yarn.lock
 .vscode/
 .eslintrc.js
+.stylelintrc.js
+yarn.lock
