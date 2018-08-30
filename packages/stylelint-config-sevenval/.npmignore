@@ -1,0 +1,17 @@
+node_modules/
+.nyc_output/
+__tests__/
+coverage/
+scripts/
+src/
+
+.gitignore
+.travis.yml
+.editorconfig
+.prettierrc
+.vscode/
+.eslintrc.js
+.stylelintrc.js
+yarn.lock
+tsconfig.json
+tslint.json

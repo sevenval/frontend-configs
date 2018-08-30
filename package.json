@@ -11,8 +11,7 @@
     "eslint:test": "mocha 'packages/eslint-config-sevenval/__tests__/**/*.spec.js'",
     "tslint:lint": "tslint 'packages/tslint-config-sevenval/src/**/!(invalid).ts'",
     "tslint:test": "mocha --require ts-node/register --watch-extensions json,ts,tsx 'packages/tslint-config-sevenval/src/**/__tests__/*.spec.ts'",
-    "precommit": "lint-staged",
-    "prepublishOnly": "npm test"
+    "precommit": "lint-staged"
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx,json,md,css,scss}": [
