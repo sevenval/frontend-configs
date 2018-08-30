@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:sevenval/stylelint-config-sevenval.git"
+    "url": "git@github.com:sevenval/frontend-configs.git"
   },
   "author": "Marvin Hagemeister <marvin.hagemeister@sevenval.de>",
   "license": "MIT",

@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:sevenval/eslint-config-sevenval.git"
+    "url": "git@github.com:sevenval/frontend-configs.git"
   },
   "author": "Marvin Hagemeister <marvin.hagemeister@sevenval.com>",
   "license": "MIT",

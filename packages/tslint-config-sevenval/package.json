@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:marvinhagemeister/tslint-config-sevenval.git"
+    "url": "git@github.com:sevenval/frontend-configs.git"
   },
   "dependencies": {},
   "devDependencies": {
