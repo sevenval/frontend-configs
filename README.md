@@ -5,11 +5,28 @@ when developing frontends.
 
 Table of contents:
 
+- [Editorconfig](#editorconfig)
 - [Prettier](#prettier)
 - [Stylelint](#stylelint)
 - [ESLint](#eslint)
 - [TSLint](#tslint)
 - [Setting up Git-Hooks](#githooks)
+
+<a href="#editorconfig>
+
+## Editorconfig
+
+```toml
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+insert_final_newline = true
+trim_trailing_whitespace = true
+```
 
 <a href="#prettier"/>
 
@@ -79,8 +96,8 @@ Add the configuration file `stylelint.config.js` with the following content:
 
 ```js
 module.exports = {
-  extends: "stylelint-config-sevenval"
-}
+  extends: 'stylelint-config-sevenval',
+};
 ```
 
 If you need to further customise the ruleset for your project you can look
@@ -99,7 +116,7 @@ If you need to further customise the ruleset for your project you can look
 ## ESLint
 
 [ESLint](https://eslint.org/) has been the standard for lining JavaScript-based
-code for quite a while. It enjoys a solid standing throughout the whole 
+code for quite a while. It enjoys a solid standing throughout the whole
 Open-Source Community being known for it's rock solid support.
 
 ### Usage
@@ -148,7 +165,7 @@ Add the configuration file `tslint.json` with the following content:
 
 ```json
 {
-  "extends": "tslint-config-sevenval",
+  "extends": "tslint-config-sevenval"
 }
 ```
 

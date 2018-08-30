@@ -1,7 +1,5 @@
 {
   "private": true,
   "name": "sevenval-frontend-configs",
-  "workspaces": [
-    "packages/*"
-  ]
+  "workspaces": ["packages/*"]
 }
