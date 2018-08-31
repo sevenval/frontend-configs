@@ -71,8 +71,6 @@ plugins README.
 Please consult the [official docs](https://prettier.io/docs/en/install.html) for more information like on how to [ignoring code](https://prettier.io/docs/en/ignore.html)
 and other topics.
 
-### Githook integration (optional)
-
 Besides the IDE-Plugins we recommend setting up a `pre-commit` so that only
 formatted code finds its way into the repository. Please read the docs about
 [Git-Hooks](#githooks) for instructions on how to do so.
