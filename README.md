@@ -10,9 +10,7 @@ Table of contents:
 - [Stylelint](#stylelint)
 - [ESLint](#eslint)
 - [TSLint](#tslint)
-- [Setting up Git-Hooks](#githooks)
-
-<a href="#editorconfig" />
+- [Setting up Git-Hooks](#git-hooks)
 
 ## Editorconfig
 
@@ -32,8 +30,6 @@ charset = utf-8
 insert_final_newline = true
 trim_trailing_whitespace = true
 ```
-
-<a href="#prettier" />
 
 ## Prettier
 
@@ -81,8 +77,6 @@ Besides the IDE-Plugins we recommend setting up a `pre-commit` so that only
 formatted code finds its way into the repository. Please read the docs about
 [Git-Hooks](#githooks) for instructions on how to do so.
 
-<a href="#stylelint" />
-
 ## Stylelint
 
 With the advent of various compile to CSS languages, [stylelint](https://stylelint.io/) has been created to support a one size fits all linting solution for all your style-related files. It follows the footsteps of previous
@@ -116,8 +110,6 @@ If you need to further customise the ruleset for your project you can look
 - [Sublime Text](https://github.com/SublimeLinter/SublimeLinter-stylelint)
 - [WebStorm](https://www.jetbrains.com/help/webstorm/using-stylelint-code-quality-tool.html)
 
-<a href="#eslint" />
-
 ## ESLint
 
 [ESLint](https://eslint.org/) has been the standard for lining JavaScript-based
@@ -150,8 +142,6 @@ If you need to further customise the ruleset for your project you can look
 - [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Sublime Text](https://github.com/SublimeLinter/SublimeLinter-eslint)
 - [WebStorm](https://www.jetbrains.com/help/webstorm/eslint.html)
-
-<a href="#tslint" />
 
 ## TSLint
 
