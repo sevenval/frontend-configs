@@ -233,7 +233,7 @@ staged file ends with `.js` or `.json`:
 {
   "name": "my-project",
   "scripts": {
-    "pre-commit": "echo 'hello world'"
+    "pre-commit": "lint-staged"
   },
   "lint-staged": {
     "*.{js,json}": ["prettier --write", "git add"]
