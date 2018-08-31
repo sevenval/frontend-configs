@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.2
+
+- Remove code-formatting rules to be compatible with `prettier`
+
 ## 2.0.1
 
 - Upgrade dependencies
