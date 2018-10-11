@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.0
+
+- **breaking**: Upgraded `eslint-config-react-app` which finally has upgraded
+  to babel7 🎉
+
 ## 3.0.0
 
 - **breaking**: Deprecate `es5` preset. If you absolutely need it, you can

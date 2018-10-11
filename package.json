@@ -10,8 +10,12 @@
     "eslint:lint": "eslint 'packages/eslint-config-sevenval/index.js' 'packages/eslint-config-sevenval/rules/**/*'",
     "eslint:test": "mocha 'packages/eslint-config-sevenval/__tests__/**/*.spec.js'",
     "tslint:lint": "tslint 'packages/tslint-config-sevenval/src/**/!(invalid).ts'",
-    "tslint:test": "mocha --require ts-node/register --watch-extensions json,ts,tsx 'packages/tslint-config-sevenval/src/**/__tests__/*.spec.ts'",
-    "precommit": "lint-staged"
+    "tslint:test": "mocha --require ts-node/register --watch-extensions json,ts,tsx 'packages/tslint-config-sevenval/src/**/__tests__/*.spec.ts'"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx,json,md,css,scss}": [
@@ -23,12 +27,13 @@
     "@types/mocha": "^5.2.5",
     "@types/node": "^10.9.3",
     "eslint": "^5.4.0",
-    "husky": "^0.14.3",
+    "husky": "^1.1.2",
     "lint-staged": "^7.2.2",
     "mocha": "^5.2.0",
     "npm-run-all": "^4.1.3",
     "prettier": "^1.14.2",
     "rimraf": "^2.6.2",
+    "stylelint": "^9.6.0",
     "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
     "typescript": "^3.0.3"
