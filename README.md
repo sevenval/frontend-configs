@@ -73,7 +73,7 @@ and other topics.
 
 Besides the IDE-Plugins we recommend setting up a `pre-commit` so that only
 formatted code finds its way into the repository. Please read the docs about
-[Git-Hooks](#githooks) for instructions on how to do so.
+[Git-Hooks](#git-hooks) for instructions on how to do so.
 
 ## Stylelint
 
