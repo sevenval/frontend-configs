@@ -175,13 +175,9 @@ If you need to further customise the ruleset for your project you can look
 
 ## Git Hooks
 
-Git hooks can be used to execute arbitrary scripts or commands on git events. The most popular one is the `pre-commit` hook which runs just before
-a git commit is created. We recommend create a `pre-commit` hook for
-[prettier](#prettier) so that only formatted code can enter the repository.
+Git hooks can be used to execute arbitrary scripts or commands on git events. The most popular one is the `pre-commit` hook which runs just before a git commit is created. We recommend create a `pre-commit` hook for [prettier](#prettier) so that only formatted code can enter the repository.
 
-If there isn't already a git hook pipeline setup in your project we
-suggest setting them up via [husky](https://github.com/typicode/husky)
-and [lint-staged](https://github.com/okonet/lint-staged). _Note that for backend projects that are not based on nodejs you'll likely encounter different tools for setting up git hooks._
+If there isn't already a git hook pipeline setup in your project we suggest setting them up via [husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged). _Note that for backend projects that are not based on nodejs you'll likely encounter different tools for setting up git hooks._
 
 ```bash
 npm install --save-dev husky
@@ -192,8 +188,10 @@ Husky is used to execute npm scripts defined in `package.json` as a git hook.
 ```json
 {
   "name": "my-project",
-  "scripts": {
-    "pre-commit": "echo 'hello world'"
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo 'hello world'"
+    }
   },
   "devDependencies": {
     "husky": "^x.x.x"
@@ -204,8 +202,7 @@ Husky is used to execute npm scripts defined in `package.json` as a git hook.
 This will output `hello world` before creating a commit.
 
 If you execute commands that expect an files as input like it is commonly
-done with linters, you do not want to lint the whole repository. Instead developers only want to check the files that are staged in git. This is
-a lot more performant and ensures a less invasive workflow change.
+done with linters, you do not want to lint the whole repository. Instead developers only want to check the files that are staged in git. This is a lot more performant and ensures a less invasive workflow change.
 
 For that we have made great experiences with [lint-staged](https://github.com/okonet/lint-staged).
 
@@ -215,16 +212,18 @@ npm install --save-dev lint-staged
 
 After the package is installed you can enable it via extending
 `package.json`. This config tells lint stage to always run prettier if the
-staged file ends with `.js` or `.json`:
+staged file ends with `.js`, `.json`, `.css` or `.scss`:
 
 ```json
 {
-  "name": "my-project",
-  "scripts": {
-    "pre-commit": "lint-staged"
+  "name": "my-project",  
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
-    "*.{js,json}": ["prettier --write", "git add"]
+    "*.{js,json,css,scss}": ["prettier --write", "git add"]
   },
   "devDependencies": {
     "husky": "^x.x.x",
