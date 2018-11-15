@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.1
+
+- Fix invalid `peerDependency` warning for `eslint-config-sevenval` (#4)
+
 ## 4.0.0
 
 - **breaking**: Upgraded `eslint-config-react-app` which finally has upgraded
