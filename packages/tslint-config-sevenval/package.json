@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "A sane TSLint configuration for TypeScript",
   "main": "index.json",
-  "author": "Marvin Hagemeister <marvin.hagemeister@sevenval.com>",
+  "author": "Sevenval Technologies GmbH",
   "license": "MIT",
   "repository": {
     "type": "git",

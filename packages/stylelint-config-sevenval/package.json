@@ -7,16 +7,16 @@
     "type": "git",
     "url": "git@github.com:sevenval/frontend-configs.git"
   },
-  "author": "Marvin Hagemeister <marvin.hagemeister@sevenval.de>",
+  "author": "Sevenval Technologies GmbH",
   "license": "MIT",
   "dependencies": {
     "stylelint-config-standard": "^18.2.0",
     "stylelint-scss": "^3.2.0"
   },
   "devDependencies": {
-    "stylelint": "^9.4.0"
+    "stylelint": "^10.1.0"
   },
   "peerDependencies": {
-    "stylelint": "9.x"
+    "stylelint": "^10.1.0"
   }
 }
