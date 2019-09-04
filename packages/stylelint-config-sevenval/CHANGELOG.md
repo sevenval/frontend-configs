@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.0.0
+
+- Upgraded dependencies with major version increases
+  - `stylelint` from 9 to 10
+
 ## 2.0.2
 
 - Remove code-formatting rules to be compatible with `prettier`

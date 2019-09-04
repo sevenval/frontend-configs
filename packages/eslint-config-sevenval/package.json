@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sevenval",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "description": "A sane JavaScript linter configuration",
   "main": "index.js",
   "keywords": [
@@ -12,17 +12,18 @@
     "type": "git",
     "url": "git@github.com:sevenval/frontend-configs.git"
   },
-  "author": "Marvin Hagemeister <marvin.hagemeister@sevenval.com>",
+  "author": "Sevenval Technologies GmbH",
   "license": "MIT",
   "peerDependencies": {
     "eslint": "^5.4.0"
   },
   "dependencies": {
-    "babel-eslint": "^9.0.0",
-    "eslint-config-react-app": "^3.0.5",
-    "eslint-plugin-flowtype": "^2.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint-config-react-app": "^5.0.1",
+    "eslint-plugin-flowtype": "^4.2.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.12.4"
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^2.0.1"
   }
 }

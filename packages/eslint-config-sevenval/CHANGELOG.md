@@ -1,5 +1,13 @@
 # Changelog
 
+## 5.0.0
+
+- Upgraded dependencies with major version increases
+  - `babel-eslint` from 9 to 10
+  - `eslint-config-react-app` from 3 to 5
+  - `eslint-plugin-flowtype` from 2 to 4
+- Added dependency `eslint-plugin-react-hooks`
+
 ## 4.0.1
 
 - Fix invalid `peerDependency` warning for `eslint-config-sevenval` (#4)
