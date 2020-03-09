@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-sevenval",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A sane TSLint configuration for TypeScript",
   "main": "index.json",
   "author": "Sevenval Technologies GmbH",
@@ -9,7 +9,19 @@
     "type": "git",
     "url": "git@github.com:sevenval/frontend-configs.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.9.0",
+    "eslint": "^6.8.0",
+    "husky": "^3.1.0",
+    "lint-staged": "^10.0.8",
+    "mocha": "^7.1.0",
+    "prettier": "^1.19.1",
+    "stylelint": "^12.0.1",
+    "ts-node": "^8.6.2",
+    "tslint": "^6.0.0",
+    "typescript": "^3.8.3"
+  },
   "devDependencies": {
     "tslint": "^5.11.0",
     "typescript": "^3.0.1"
