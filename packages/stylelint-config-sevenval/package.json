@@ -10,6 +10,7 @@
   "author": "Sevenval Technologies GmbH",
   "license": "MIT",
   "dependencies": {
+    "stylelint": "^13.2.1",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-scss": "^3.2.0"
   },
