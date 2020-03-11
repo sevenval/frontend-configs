@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.0.1
+
+- Upgraded all dependencies to their latest possible version while maintaining nodeJs 8 compatibility
+  - `stylelint-config-standard` upgraded from ^18.2.0 to ^20.0.0
+  - `stylelint` upgraded from ^10.1.0 to ^12.0.1
+
 ## 3.0.0
 
 - Upgraded dependencies with major version increases
