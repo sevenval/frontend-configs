@@ -1,3 +1,9 @@
+# DEPRECATED
+
+This repository is deprecated and superseded by https://github.com/avenga especially https://github.com/avenga/eslint-config.
+TSLint is not supported anymore and has equivalent ESLint configs in the new space.
+All other configs will become respective equivalents in the new space.
+
 # Sevenval Frontend Configs
 
 This repository contains configuration files for several tools commonly used
